@@ -116,7 +116,7 @@ class ImportCsv extends Command
         ];
         // log the customer import data details
         $this->logImportCsv($arrLog);
-        
+        $this->info('All data imported.');
     }
 
     /**
